@@ -18,7 +18,7 @@ public class UserController2 {
 
     @GetMapping("/")
     public String hello() {
-        return "Success! springboot-app3 is running.";
+        return "action2.";
     }
 
     @GetMapping("/mysql")
